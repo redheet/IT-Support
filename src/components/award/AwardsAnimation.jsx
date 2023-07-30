@@ -2,22 +2,25 @@ import React from "react";
 
 const AwardContnet = [
   {
-    img: "a1",
-    awardName: "Creative Designer",
+    img: "jsi",
+    awardName: "JavaScript (Intermediate)",
     awardFor: "Site of the day",
     delayAnimation: "0",
+    link: "https://www.hackerrank.com/certificates/0f2ad30f5584",
   },
   {
-    img: "a2",
-    awardName: "Yearly Best Performer",
+    img: "react",
+    awardName: "React (Basic)",
     awardFor: "Site of the day",
     delayAnimation: "200",
+    link: "https://www.hackerrank.com/certificates/7664dbf85471",
   },
   {
-    img: "a3",
-    awardName: "Best Learner Award",
+    img: "sql",
+    awardName: "SQL (Basic)",
     awardFor: "Site of the day",
     delayAnimation: "400",
+    link: "https://www.hackerrank.com/certificates/2ffadc278797",
   },
 ];
 
@@ -35,11 +38,13 @@ const Awards = () => {
           >
             <div className="feature-box-02 d-flex align-items-center">
               <div className="icon">
-                <img src={`img/award/${val.img}.png`} alt="award" />
+                <img src={`img/award/${val.img}.jpg`} alt="award" />
               </div>
               <div className="media-body">
-                <h6>{val.awardName}</h6>
-                <p>{val.awardFor}</p>
+                <a href={val.link} target="_blank" rel="noopener noreferrer">
+                  <h6>{val.awardName}</h6>
+                  <p>{val.awardFor}</p>
+                </a>
               </div>
             </div>
           </div>

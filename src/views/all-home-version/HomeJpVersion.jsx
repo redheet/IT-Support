@@ -12,7 +12,7 @@ import Footer from "../../components/footer/FooterJp";
 import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeJpVersion = () => {
-  useDocumentTitle("はせぐぁいさお");
+  useDocumentTitle(" Noufal Zainudin Zidane | のざじ");
   return (
     <div className="main-left theme-dark">
       <Header />

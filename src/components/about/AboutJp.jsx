@@ -2,7 +2,7 @@ import React from "react";
 import Social from "../Social";
 // import Testimonials from "../testimonial/TestimonialAnimation";
 import Services from "../service/ServiceJp";
-// import Awards from "../award/AwardsAnimation";
+import Awards from "../award/AwardsAnimation";
 
 const Data = {
   myName: "Noufal Zainudin Zidane",
@@ -154,21 +154,21 @@ const AboutJp = () => {
           {/* End .row */}
 
           {/* separated */}
-          {/* <div
+          <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div> */}
+          ></div>
           {/* End separated */}
 
-          {/* <div className="title">
-            <h3>Awards.</h3>
+          <div className="title">
+            <h3>Certificate.</h3>
           </div>
 
-          <Awards /> */}
+          <Awards />
           {/* End Awards */}
 
           {/* separated */}
