@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderAnimation";
 import About from "../../components/about/AboutAnimation";
 import Resume from "../../components/resume/ResumeAnimation";
-// import Portfolio from "../../components/portfolio/PortfolioAnimation";
+import Portfolio from "../../components/portfolio/PortfolioAnimation";
 // import Blog from "../../components/blog/BlogAnimation";
 import Contact from "../../components/contact/Contact";
 import ContactInfo from "../../components/contact/ContactInfo";
@@ -27,14 +27,14 @@ const HomeOne = () => {
       <Resume />
       {/* End Resume Section */}
 
-      {/* <section id="work" className="section theme-light dark-bg">
+      <section id="work" className="section theme-light dark-bg">
         <div className="container">
           <div className="title">
             <h3>My Portfolio.</h3>
           </div>
           <Portfolio />
         </div>
-      </section> */}
+      </section>
       {/* End Portfolio Section */}
 
       {/* <section id="blog" className="section">
